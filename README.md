@@ -27,5 +27,5 @@ After installation, make sure to commit the `.ddev` directory to version control
 
 ## Credits
 
-**Inspired by [@darthsteven's work](https://github.com/ddev/ddev/issues/3878#issuecomment-2491614576)**
-**Contributed and maintained by [@anotherjames](https://github.com/anotherjames)**
+- Inspired by [@darthsteven's work](https://github.com/ddev/ddev/issues/3878#issuecomment-2491614576)**
+- Contributed and maintained by [@anotherjames](https://github.com/anotherjames)**
