@@ -2,5 +2,6 @@ name: 1password
 
 project_files:
   - docker-compose.1password.yaml
+  - config.1password.yaml
 
 ddev_version_constraint: '>= v1.24.3'

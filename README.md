@@ -7,7 +7,8 @@
 
 ## Overview
 
-This add-on integrates 1password into your [DDEV](https://ddev.com/) project.
+This add-on integrates 1password into your [DDEV](https://ddev.com/) project to
+make it available as your SSH agent.
 
 ## Installation
 
@@ -22,26 +23,7 @@ After installation, make sure to commit the `.ddev` directory to version control
 
 | Command | Description |
 | ------- | ----------- |
-| `ddev describe` | View service status and used ports for 1password |
-| `ddev logs -s 1password` | Check 1password logs |
-
-## Advanced Customization
-
-To change the Docker image:
-
-```bash
-ddev dotenv set .ddev/.env.1password --1password-docker-image="busybox:stable"
-ddev add-on get anotherjames/ddev-1password
-ddev restart
-```
-
-Make sure to commit the `.ddev/.env.1password` file to version control.
-
-All customization options (use with caution):
-
-| Variable | Flag | Default |
-| -------- | ---- | ------- |
-| `1PASSWORD_DOCKER_IMAGE` | `--1password-docker-image` | `busybox:stable` |
+| `ddev 1password` | Set up 1password for use as the SSH agent to be used globally for every client (not just DDEV). |
 
 ## Credits
 
