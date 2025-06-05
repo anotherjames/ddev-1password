@@ -23,7 +23,7 @@ After installation, make sure to commit the `.ddev` directory to version control
 
 | Command | Description |
 | ------- | ----------- |
-| `ddev 1password` | Set up 1password for use as the SSH agent to be used globally for every client (not just DDEV). |
+| `ddev 1password` | Set up 1password for use on macs as the SSH agent to be used globally for every client (not just DDEV). |
 
 ## Credits
 

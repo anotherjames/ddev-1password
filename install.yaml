@@ -4,4 +4,7 @@ project_files:
   - docker-compose.1password.yaml
   - config.1password.yaml
 
+global_files:
+  - commands/host/1password
+
 ddev_version_constraint: '>= v1.24.3'
