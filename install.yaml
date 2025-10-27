@@ -1,8 +1,8 @@
 name: 1password
 
 project_files:
-  - docker-compose.1password.yaml
   - config.1password.yaml
+  - project/.gitignore
 
 global_files:
   - commands/host/1password
