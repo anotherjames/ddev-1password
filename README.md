@@ -10,6 +10,20 @@
 This add-on integrates 1password into your [DDEV](https://ddev.com/) project to
 make it available as your SSH agent.
 
+> [!NOTE]
+> DDEV v1.25.5 and newer explicitly support 1Password and other existing SSH
+> agents, so this add-on is only needed for DDEV v1.24.3 through v1.24.5. On newer
+> versions, run:
+>
+> ```bash
+> ddev config global --ssh-agent-upstream=host
+> ddev auth ssh
+> ```
+>
+> See [Using an Existing SSH Agent](https://docs.ddev.com/en/latest/users/usage/cli/#using-an-existing-ssh-agent)
+> in the DDEV docs, especially
+> [macOS: which agent do my containers get?](https://docs.ddev.com/en/latest/users/usage/cli/#macos-which-agent-do-my-containers-get)
+
 ## Installation
 
 ```bash
